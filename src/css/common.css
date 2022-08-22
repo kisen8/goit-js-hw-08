@@ -7,12 +7,28 @@ body {
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
+  background-color: rgb(196, 193, 38);
   color: #212121;
   line-height: 1.5;
 }
 
+a {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(9, 75, 218);
+  font-size: 60px;
+}
+a:hover {
+  color: rgb(235, 100, 100);
+}
+li {
+  list-style: none;
+}
 img {
   display: block;
   max-width: 100%;
+}
+
+body a {
+  list-style: none;
 }
